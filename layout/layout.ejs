@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#3367D6"/>
-  <link rel="apple-touch-icon" href="./icons-192.png">
-  <link rel="manifest" href="./manifest.json">
-  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <link rel="apple-touch-icon" href="/icons-192.png">
+  <link rel="manifest" href="/manifest.json">
+  <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
   <%- meta_generator() %>
 
   <% if (config.description) { %>
@@ -44,12 +44,12 @@
     <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
 
-  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
 
   <% if (config.highlight.enable){ %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@1.1.3/index.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlightjs@9.16.2/styles/<%= config.highlight.theme || 'monokai' %>.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
   <% } %>
 </head>
 <body>
